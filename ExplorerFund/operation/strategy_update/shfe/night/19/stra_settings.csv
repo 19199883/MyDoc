@@ -1,11 +1,8 @@
 comm_no,strategy,contract,lot
 ag,fl34_ag_night,ag1706,1
-ag,fw10_ag_night,ag1706,1
-ag,fl36_ag_night,ag1706,1
-ag,fd10_ag_night,ag1706,1
-al,fl34_al_night,al1702,1
-al,fw10_al_night,al1702,1
-al,fl36_al_night,al1702,1
-al,fd10_al_night,al1702,1
-ru,fl34_ru_night,ru1705,4
-ru,fd10_ru_night,ru1705,2
+ag,fd10_ag_night,ag1706,4
+al,fl34_al_night,al1703,1
+al,fw10_al_night,al1703,1
+ru,fl34_ru_night,ru1705,2
+ru,fl36_ru_night,ru1705,2
+ru,fd10_ru_night,ru1705,1
