@@ -1,7 +1,7 @@
 comm_no,strategy,contract,lot
-zn,fl34_zn_night,zn1703,3
-zn,fl36_zn_night,zn1703,2
-zn,fd10_zn_night,zn1703,3
+zn,fl34_zn_night,zn1703,1
+zn,fl36_zn_night,zn1703,1
+zn,fd10_zn_night,zn1703,1
 pb,fl34_pb_night,pb1702,1
 pb,fl35_pb_night,pb1702,1
 pb,fw10_pb_night,pb1702,1
