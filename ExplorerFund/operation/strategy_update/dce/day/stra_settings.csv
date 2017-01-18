@@ -1,0 +1,11 @@
+comm_no,strategy,contract,lot
+m,fl34_dlm_day,m1705,7
+m,fl36_dlm_day,m1705,7
+m,fw10_dlm_day,m1705,2
+jd,fl34_dljd_day,jd1705,2
+jd,fl36_dljd_day,jd1705,1
+a,fl34_dla_day,a1705,3
+a,fl36_dla_day,a1705,3
+v,fl34_dlv_day,v1705,2
+i,fl34_dli_day,i1705,30
+i,fl36_dli_day,i1705,30
