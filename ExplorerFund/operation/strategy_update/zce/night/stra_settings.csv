@@ -2,10 +2,12 @@ comm_no,strategy,contract,lot
 CF,fw10_zzcf_night,CF705,2
 CF,fl36_zzcf_night,CF705,5
 CF,fl34_zzcf_night,CF705,5
+CF,fl50_zzcf_night,CF705,1
 TA,fw10_zzta_night,TA705,5
 TA,fl34_zzta_night,TA705,20
 TA,fd10_zzta_night,TA705,15
 TA,fl36_zzta_night,TA705,10
+TA,fl50_zzta_night,TA705,1
 MA,fl36_zzma_night,MA705,5
 SR,fl36_zzsr_night,SR705,5
 SR,fl34_zzsr_night,SR705,5

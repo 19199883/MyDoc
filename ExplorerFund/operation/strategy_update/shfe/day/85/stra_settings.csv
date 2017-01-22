@@ -1,8 +1,10 @@
 comm_no,strategy,contract,lot
 rb,fl50_shrb_day,rb1705,1
+pb,fl51_shpb_day,pb1703,1
 al,fl50_shal_day,al1703,1
+al,fl51_shal_day,al1703,1
 ni,fl50_shni_day,ni1705,1
 pb,fl50_shpb_day,pb1703,1
 zn,fl50_shzn_day,zn1703,1
-ru,fl51_ru_day,ru1705,1
-ag,fl51_ag_day,ag1706,1
+au,fl51_shau_day,au1706,1
+hc,fl51_shhc_day,hc1705,1
