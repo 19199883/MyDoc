@@ -1,26 +1,26 @@
-45 8 * * 1-5 sh /home/u910019/trade/day/mktdata/start.sh
+#45 8 * * 1-5 sh /home/u910019/trade/day/mktdata/start.sh
 
-46 8 * * 1-5 sh /home/u910019/trade/day/trade/start.sh
+#46 8 * * 1-5 sh /home/u910019/trade/day/trade/start.sh
 
-32 15 * * 1-5 sh /home/u910019/trade/day/mktdata/stop.sh
+#32 15 * * 1-5 sh /home/u910019/trade/day/mktdata/stop.sh
 
-33 15 * * 1-5 sh /home/u910019/trade/day/mktdata/transfer_md.sh
+#33 15 * * 1-5 sh /home/u910019/trade/day/mktdata/transfer_md.sh
 
-31 15 * * 1-5 sh /home/u910019/trade/day/trade/stop.sh
+#31 15 * * 1-5 sh /home/u910019/trade/day/trade/stop.sh
 
-40 15 * * 1-5 sh /home/u910019/trade/day/rm_old_files.sh
+#40 15 * * 1-5 sh /home/u910019/trade/day/rm_old_files.sh
 
-15 16 * * 1-5 sh ~/domi_contr_check/domi_contr_finder.sh -g 
+#15 16 * * 1-5 sh ~/domi_contr_check/domi_contr_finder.sh -g 
 
-45 20 * * 1-5 sh /home/u910019/trade/night/mktdata/start.sh
+#32 20 * * 1-5 sh /home/u910019/trade/night/mktdata/start.sh
 
-46 20 * * 1-5 sh /home/u910019/trade/night/trade/start.sh
+#33 20 * * 1-5 sh /home/u910019/trade/night/trade/start.sh
 
-30 2 * * 2-6 sh /home/u910019/trade/night/mktdata/stop.sh
+#30 2 * * 2-6 sh /home/u910019/trade/night/mktdata/stop.sh
 
-31 2 * * 2-6 sh /home/u910019/trade/night/trade/stop.sh
+#31 2 * * 2-6 sh /home/u910019/trade/night/trade/stop.sh
 
-00 3 * * 2-6 sh /home/u910019/trade/night/mktdata/transfer_md.sh
+#00 3 * * 2-6 sh /home/u910019/trade/night/mktdata/transfer_md.sh
 
-10 3 * * 2-6 sh /home/u910019/trade/night/rm_old_files.sh
+#10 3 * * 2-6 sh /home/u910019/trade/night/rm_old_files.sh
 
