@@ -9,9 +9,9 @@ SR,fw10_sr_day,SR705,1
 SR,fd10_sr_day,SR705,1
 CF,fl36_cf_day,CF705,1
 CF,fl34_cf_day,CF705,1
-TA,fl34_ta_day,TA705,2
-TA,fl36_ta_day,TA705,2
-TA,fw10_ta_day,TA705,2
-TA,fd10_ta_day,TA705,2
-RM,fl34_rm_day,RM705,2
+TA,fl34_ta_day,TA705,5
+TA,fl36_ta_day,TA705,5
+TA,fw10_ta_day,TA705,5
+TA,fd10_ta_day,TA705,5
+RM,fl34_rm_day,RM705,5
 RM,fl36_rm_day,RM705,1
