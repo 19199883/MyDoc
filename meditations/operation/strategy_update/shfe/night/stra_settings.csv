@@ -1,5 +1,9 @@
 comm_no,strategy,contract,lot
-ni,tst_sh_ni_night,ni1705,2
-ru,tst_sh_ru_night,ru1705,4
-al,tst_sh_al_night,al1704,2
-cu,tst_sh_cu_night,cu1704,2
+au,tst_shau_night,au1706,1
+cu,tst2_shcu_night,cu1704,1
+ru,tst3_shru_night,ru1705,1
+al,tst5_shal_night,al1704,1
+au,tst5_shau_night,au1706,1
+cu,tst5_shcu_night,cu1704,2
+rb,tst5_shrb_night,rb1705,1
+ru,tst5_shru_night,ru1705,2
