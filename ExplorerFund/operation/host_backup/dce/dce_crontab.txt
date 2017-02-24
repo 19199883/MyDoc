@@ -1,26 +1,26 @@
-#45 8 * * 1-5 sh /home/u910019/trade/day/dcelv2_mktsvc/start.sh
+45 8 * * 1-5 sh /home/u910019/trade/day/dcelv2_mktsvc/start.sh
 
-#46 8 * * 1-5 sh /home/u910019/trade/day/dcelevel2_tradsev/start.sh
+46 8 * * 1-5 sh /home/u910019/trade/day/dcelevel2_tradsev/start.sh
 
-#32 15 * * 1-5 sh /home/u910019/trade/day/dcelv2_mktsvc/stop.sh
+32 15 * * 1-5 sh /home/u910019/trade/day/dcelv2_mktsvc/stop.sh
 
-#33 15 * * 1-5 sh /home/u910019/trade/day/dcelv2_mktsvc/transfer_md.sh
+33 15 * * 1-5 sh /home/u910019/trade/day/dcelv2_mktsvc/transfer_md.sh
 
-#31 15 * * 1-5 sh /home/u910019/trade/day/dcelevel2_tradsev/stop.sh
+31 15 * * 1-5 sh /home/u910019/trade/day/dcelevel2_tradsev/stop.sh
 
-#40 15 * * 1-5 sh /home/u910019/trade/day/rm_old_files.sh
+40 15 * * 1-5 sh /home/u910019/trade/day/rm_old_files.sh
 
-#50 15 * * 1-5 sh ~/domi_contr_check/dce_domi_contr_finder.sh -g
+50 15 * * 1-5 sh ~/domi_contr_check/dce_domi_contr_finder.sh -g
 
-#45 20 * * 1-5 sh /home/u910019/trade/night/dcelv2_mktsvc/start.sh
+45 20 * * 1-5 sh /home/u910019/trade/night/dcelv2_mktsvc/start.sh
 
-#46 20 * * 1-5 sh /home/u910019/trade/night/dcelevel2_tradsev/start.sh
+46 20 * * 1-5 sh /home/u910019/trade/night/dcelevel2_tradsev/start.sh
 
-#30 2 * * 2-6 sh /home/u910019/trade/night/dcelv2_mktsvc/stop.sh
+30 2 * * 2-6 sh /home/u910019/trade/night/dcelv2_mktsvc/stop.sh
 
-#31 2 * * 2-6 sh /home/u910019/trade/night/dcelevel2_tradsev/stop.sh
+31 2 * * 2-6 sh /home/u910019/trade/night/dcelevel2_tradsev/stop.sh
 
-#00 3 * * 2-6 sh /home/u910019/trade/night/dcelv2_mktsvc/transfer_md.sh
+00 3 * * 2-6 sh /home/u910019/trade/night/dcelv2_mktsvc/transfer_md.sh
 
-#10 3 * * 2-6 sh /home/u910019/trade/night/rm_old_files.sh
+10 3 * * 2-6 sh /home/u910019/trade/night/rm_old_files.sh
 
