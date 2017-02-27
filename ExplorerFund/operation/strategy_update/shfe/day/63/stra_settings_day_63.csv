@@ -1,9 +1,9 @@
 comm_no,strategy,contract,lot
 ru,fl36_ru_day,ru1705,1
 ru,fw10_ru_day,ru1705,1
-ag,fl34_ag_day,ag1706,5
-ag,fl36_ag_day,ag1706,5
+ag,fl34_ag_day,ag1706,6
+ag,fl36_ag_day,ag1706,6
 al,fd10_al_day,al1704,1
-rb,fd10_rb_day,rb1705,5
+rb,fd10_rb_day,rb1705,10
 pb,fl34_pb_day,pb1704,1
-pb,fd10_pb_day,pb1704,2
+pb,fd10_pb_day,pb1704,3
