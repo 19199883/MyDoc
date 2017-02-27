@@ -1,11 +1,11 @@
 comm_no,strategy,contract,lot
-au,tst_sh_au_day,au1706,1
-ru,tst2_sh_ru_day,ru1705,1
+au,tst_sh_au_day,au1706,2
+ru,tst2_sh_ru_day,ru1705,2
 zn,tst2_sh_zn_day,zn1704,1
 ni,tst4_sh_ni_day,ni1705,2
-au,tst5_sh_au_day,au1706,1
-bu,tst5_sh_bu_day,bu1706,2
-cu,tst5_sh_cu_day,cu1704,1
-ni,tst5_sh_ni_day,ni1705,2
+au,tst5_sh_au_day,au1706,2
+bu,tst5_sh_bu_day,bu1706,4
+cu,tst5_sh_cu_day,cu1704,2
+ni,tst5_sh_ni_day,ni1705,1
 ru,tst5_sh_ru_day,ru1705,1
 zn,tst5_sh_zn_day,zn1704,1
