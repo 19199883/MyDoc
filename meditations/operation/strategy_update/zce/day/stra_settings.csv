@@ -1,9 +1,3 @@
 comm_no,strategy,contract,lot
-au,tst_sh_au_day,au1706,1
-ru,tst2_sh_ru_day,ru1705,1
-zn,tst2_sh_zn_day,zn1704,1
-ni,tst4_sh_ni_day,ni1705,2
-au,tst5_sh_au_day,au1706,1
-bu,tst5_sh_bu_day,bu1706,2
-cu,tst5_sh_cu_day,cu1704,1
-ni,tst5_sh_ni_day,ni1705,2
+ta,tst1_zz_ta_day,TA705,1
+ta,tst5_zz_ta_day,TA705,2
