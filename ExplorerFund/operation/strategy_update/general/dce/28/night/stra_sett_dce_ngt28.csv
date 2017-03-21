@@ -1,0 +1,8 @@
+comm_no,strategy,contract,lot
+dlm,fl34debug_dlm_night,m1709,2
+dlp,fl34debug_dlp_night,p1709,15
+dlm,fl36debug_dlm_night,m1709,5
+dlp,fl36debug_dlp_night,p1709,15
+dli,fl36debug_dli_night,i1705,10
+dlm,fl60debug_dlm_night,m1709,5
+dlp,fl60debug_dlp_night,p1709,15

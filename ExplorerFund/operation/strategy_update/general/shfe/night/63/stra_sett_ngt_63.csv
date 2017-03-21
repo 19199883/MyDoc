@@ -1,0 +1,13 @@
+comm_no,strategy,contract,lot
+zn,fl34debug_zn_night,zn1705,2
+al,fl34debug_al_night,al1705,4
+rb,fl34debug_rb_night,rb1710,20
+pb,fl34debug_pb_night,pb1705,3
+zn,fl36debug_zn_night,zn1705,10
+al,fl36debug_al_night,al1705,4
+rb,fl36debug_rb_night,rb1710,10
+zn,fl60debug_zn_night,zn1705,10
+ag,fl60debug_ag_night,ag1706,10
+pb,fl60debug_pb_night,pb1705,3
+ru,fl60debug_ru_night,ru1709,3
+rb,fl60debug_rb_night,rb1710,10
