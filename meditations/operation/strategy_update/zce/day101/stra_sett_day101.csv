@@ -1,0 +1,11 @@
+item,strategy,contract,lot
+cf,tst2_zzcf_day,CF705,1
+cf,tst4_zzcf_day,CF705,1
+ma,tst4_zzma_day,MA705,1
+rm,tst2_zzrm_day,RM709,1
+sr,tst0_zzsr_day,SR705,1
+sr,tst1_zzsr_day,SR705,1
+sr,tst2_zzsr_day,SR705,1
+sr,tst4_zzsr_day,SR705,1
+sr,tst5_zzsr_day,SR705,1
+ta,tst0_zzta_day,TA705,1
