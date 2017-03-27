@@ -1,8 +1,8 @@
 comm_no,strategy,contract,lot
-zzma,fl34debug_zzma_night,MA705,20
+zzma,fl34debug_zzma_night,MA705,7
 zzcf,fl34debug_zzcf_night,CF705,8
-zzma,fl36debug_zzma_night,MA705,8
+zzma,fl36debug_zzma_night,MA705,3
 zzcf,fl36debug_zzcf_night,CF705,10
-zzma,fl60debug_zzma_night,MA705,8
+zzma,fl60debug_zzma_night,MA705,3
 zzcf,fl60debug_zzcf_night,CF705,8
 zzcf,fw10_zzcf_night,CF705,6

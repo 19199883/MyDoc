@@ -1,0 +1,11 @@
+comm_no,strategy,contract,lot,,,
+zn,fl36_zn_day,zn1705,15,,1.5,22.5
+rb,fl36_rb_day,rb1710,8,,0.3,2.4
+rb,fl60_rb_day,rb1710,7,,0.3,2.1
+pb,fl34_pb_day,pb1705,3,,1.2,3.6
+pb,fl35_pb_day,pb1705,2,,1.2,2.4
+pb,fl60_pb_day,pb1705,3,,1.2,3.6
+au,fl60_au_day,au1706,15,,3,45
+cu,fl60_cu_day,cu1705,11,,3,33
+al,fl60_al_day,al1705,6,,1,6
+al,fl34_al_day,al1705,4,,1,4
