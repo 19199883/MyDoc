@@ -1,26 +1,55 @@
-#45 8 * * 1-5 sh /home/u910019/trade/day/mktdata/start.sh
+# start market data service
+35 8 * * 1-5 sh /home/u910019/trade/zce_day17/mktdata/start.sh
+36 8 * * 1-5 sh  /home/u910019/medi/zce_day101/mktdata/start.sh
 
-#46 8 * * 1-5 sh /home/u910019/trade/day/trade/start.sh
+# start trading service
+37 8 * * 1-5 sh /home/u910019/trade/zce_day17/trade/start.sh
+37 8 * * 1-5 sh  /home/u910019/medi/zce_day101/trade/start.sh
 
-#32 15 * * 1-5 sh /home/u910019/trade/day/mktdata/stop.sh
+00 15 * * 1-5 python  /home/u910019/medi/zce_day101/trade/conf_to_csv.py
 
-#33 15 * * 1-5 sh /home/u910019/trade/day/mktdata/transfer_md.sh
+# stop market data service
+12 15 * * 1-5 sh /home/u910019/trade/zce_day17/mktdata/stop.sh
+12 15 * * 1-5 sh  /home/u910019/medi/zce_day101/mktdata/stop.sh
 
-#31 15 * * 1-5 sh /home/u910019/trade/day/trade/stop.sh
+# stop trading service
+12 15 * * 1-5 sh /home/u910019/trade/zce_day17/trade/stop.sh
+12 15 * * 1-5  sh /home/u910019/medi/zce_day101/trade/stop.sh
 
-#40 15 * * 1-5 sh /home/u910019/trade/day/rm_old_files.sh
+# transfer market data
+13 15 * * 1-5 sh /home/u910019/trade/zce_day17/mktdata/transfer_md.sh
+18 15 * * 1-5  sh /home/u910019/medi/zce_day101/mktdata/transfer_md.sh
 
-#15 16 * * 1-5 sh ~/domi_contr_check/domi_contr_finder.sh -g 
 
-#32 20 * * 1-5 sh /home/u910019/trade/night/mktdata/start.sh
+# clean old files
+19 15 * * 1-5 sh /home/u910019/trade/zce_day17/rm_old_files.sh
+19 15 * * 1-5  sh /home/u910019/medi/zce_day101/rm_old_files.sh
 
-#33 20 * * 1-5 sh /home/u910019/trade/night/trade/start.sh
+20 15 * * 1-5 sh ~/domi_contr_check/domi_contr_finder.sh -g 
 
-#30 2 * * 2-6 sh /home/u910019/trade/night/mktdata/stop.sh
+# start market data service
+32 20 * * 1-5 sh /home/u910019/trade/zce_night17/mktdata/start.sh
+33 20 * * 1-5 sh  /home/u910019/medi/zce_night101/mktdata/start.sh
 
-#31 2 * * 2-6 sh /home/u910019/trade/night/trade/stop.sh
+# start trading service
+34 20 * * 1-5 sh /home/u910019/trade/zce_night17/trade/start.sh
+34 20 * * 1-5  sh /home/u910019/medi/zce_night101/trade/start.sh
 
-#00 3 * * 2-6 sh /home/u910019/trade/night/mktdata/transfer_md.sh
+30 2 * * 2-6 python  /home/u910019/medi/zce_night101/trade/conf_to_csv.py
 
-#10 3 * * 2-6 sh /home/u910019/trade/night/rm_old_files.sh
+# stop market data service
+30 2 * * 2-6 sh /home/u910019/trade/zce_night17/mktdata/stop.sh
+30 2 * * 2-6  sh /home/u910019/medi/zce_night101/mktdata/stop.sh
+
+# stop trading service
+31 2 * * 2-6 sh /home/u910019/trade/zce_night17/trade/stop.sh
+31 2 * * 2-6  sh /home/u910019/medi/zce_night101/trade/stop.sh
+
+# transfer market data 
+00 3 * * 2-6 sh /home/u910019/trade/zce_night17/mktdata/transfer_md.sh
+03 3 * * 2-6  sh /home/u910019/medi/zce_night101/mktdata/transfer_md.sh
+
+# clean old files
+10 3 * * 2-6 sh /home/u910019/trade/zce_night17/rm_old_files.sh
+10 3 * * 2-6  sh /home/u910019/medi/zce_night101/rm_old_files.sh
 

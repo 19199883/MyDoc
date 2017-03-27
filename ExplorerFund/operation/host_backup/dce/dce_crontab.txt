@@ -1,26 +1,69 @@
-45 8 * * 1-5 sh /home/u910019/trade/day/dcelv2_mktsvc/start.sh
+# start market data service
+30 8 * * 1-5 sh /home/u910019/explorer/day28/dcelv2_mktsvc/start.sh
+30 8 * * 1-5 sh /home/u910019/explorer/day112/dcelv2_mktsvc/start.sh
+30 8 * * 1-5 sh /home/u910019/explorer/day137/dcelv2_mktsvc/start.sh
+30 8 * * 1-5     sh /home/u910019/medi/day/dcelv2_mktsvc/start.sh
 
-46 8 * * 1-5 sh /home/u910019/trade/day/dcelevel2_tradsev/start.sh
+# start trading service
+31 8 * * 1-5 sh /home/u910019/explorer/day28/dcelevel2_tradsev/start.sh
+31 8 * * 1-5 sh /home/u910019/explorer/day112/dcelevel2_tradsev/start.sh
+31 8 * * 1-5 sh /home/u910019/explorer/day137/dcelevel2_tradsev/start.sh
+31 8 * * 1-5     sh /home/u910019/medi/day/dcelevel2_tradsev/start.sh
 
-32 15 * * 1-5 sh /home/u910019/trade/day/dcelv2_mktsvc/stop.sh
+05 15 * * 1-5 sh /home/u910019/explorer/day112/dcelevel2_tradsev/pos_calc.sh
+05 15 * * 1-5 sh /home/u910019/explorer/day137/dcelevel2_tradsev/pos_calc.sh
 
-33 15 * * 1-5 sh /home/u910019/trade/day/dcelv2_mktsvc/transfer_md.sh
+06 15 * * 1-5 python  /home/u910019/medi/day/dcelevel2_tradsev/conf_to_csv.py
 
-31 15 * * 1-5 sh /home/u910019/trade/day/dcelevel2_tradsev/stop.sh
+# stop market data service
+10 15 * * 1-5 sh /home/u910019/explorer/day28/dcelv2_mktsvc/stop.sh
+10 15 * * 1-5 sh /home/u910019/explorer/day112/dcelv2_mktsvc/stop.sh
+10 15 * * 1-5 sh /home/u910019/explorer/day137/dcelv2_mktsvc/stop.sh
+10 15 * * 1-5     sh /home/u910019/medi/day/dcelv2_mktsvc/stop.sh
 
-40 15 * * 1-5 sh /home/u910019/trade/day/rm_old_files.sh
+# stop trading service
+11 15 * * 1-5 sh /home/u910019/explorer/day28/dcelevel2_tradsev/stop.sh
+11 15 * * 1-5 sh /home/u910019/explorer/day112/dcelevel2_tradsev/stop.sh
+11 15 * * 1-5 sh /home/u910019/explorer/day137/dcelevel2_tradsev/stop.sh
+11 15 * * 1-5     sh /home/u910019/medi/day/dcelevel2_tradsev/stop.sh
 
-50 15 * * 1-5 sh ~/domi_contr_check/dce_domi_contr_finder.sh -g
+# transfer market data
+12 15 * * 1-5 sh /home/u910019/explorer/day28/dcelv2_mktsvc/transfer_md.sh
+12 15 * * 1-5 sh /home/u910019/explorer/day112/dcelv2_mktsvc/transfer_md.sh
+12 15 * * 1-5 sh /home/u910019/explorer/day137/dcelv2_mktsvc/transfer_md.sh
+15 15 * * 1-5     sh /home/u910019/medi/day/dcelv2_mktsvc/transfer_md.sh
 
-45 20 * * 1-5 sh /home/u910019/trade/night/dcelv2_mktsvc/start.sh
+# clean old files
+17 15 * * 1-5 sh /home/u910019/explorer/day28/rm_old_files.sh
+17 15 * * 1-5 sh /home/u910019/explorer/day112/rm_old_files.sh
+17 15 * * 1-5 sh /home/u910019/explorer/day137/rm_old_files.sh
+17 15 * * 1-5     sh /home/u910019/medi/day/rm_old_files.sh
 
-46 20 * * 1-5 sh /home/u910019/trade/night/dcelevel2_tradsev/start.sh
+18 15 * * 1-5 sh ~/domi_contr_check/dce_domi_contr_finder.sh -g
 
-30 2 * * 2-6 sh /home/u910019/trade/night/dcelv2_mktsvc/stop.sh
+# start market data service
+35 20 * * 1-5 sh /home/u910019/explorer/night28/dcelv2_mktsvc/start.sh
+35 20 * * 1-5     sh /home/u910019/medi/night/dcelv2_mktsvc/start.sh
 
-31 2 * * 2-6 sh /home/u910019/trade/night/dcelevel2_tradsev/stop.sh
+# start trading service
+36 20 * * 1-5 sh /home/u910019/explorer/night28/dcelevel2_tradsev/start.sh
+36 20 * * 1-5     sh /home/u910019/medi/night/dcelevel2_tradsev/start.sh
 
-00 3 * * 2-6 sh /home/u910019/trade/night/dcelv2_mktsvc/transfer_md.sh
+# stop market data service
+30 2 * * 2-6 sh /home/u910019/explorer/night28/dcelv2_mktsvc/stop.sh
+30 2 * * 2-6     sh /home/u910019/medi/night/dcelv2_mktsvc/stop.sh
 
-10 3 * * 2-6 sh /home/u910019/trade/night/rm_old_files.sh
+30 2 * * 2-6 python /home/u910019/medi/night/dcelevel2_tradsev/conf_to_csv.py
+
+# stop trading service
+31 2 * * 2-6 sh /home/u910019/explorer/night28/dcelevel2_tradsev/stop.sh
+31 2 * * 2-6     sh /home/u910019/medi/night/dcelevel2_tradsev/stop.sh
+
+# transfer market data
+00 3 * * 2-6 sh /home/u910019/explorer/night28/dcelv2_mktsvc/transfer_md.sh
+04 3 * * 2-6 sh     /home/u910019/medi/night/dcelv2_mktsvc/transfer_md.sh
+
+# clean old files
+10 3 * * 2-6 sh /home/u910019/explorer/night28/rm_old_files.sh
+10 3 * * 2-6     sh /home/u910019/medi/night/rm_old_files.sh
 
