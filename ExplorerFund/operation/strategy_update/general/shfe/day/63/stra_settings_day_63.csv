@@ -1,3 +1,2 @@
 comm_no,strategy,contract,lot,,,
-zn,fl36_zn_day,zn1705,0,,1.5,22.5
-rb,fl36_rb_day,rb1710,0,,0.3,2.4
+zn,nosig_zn_day,zn1705,5,,1.5,22.5

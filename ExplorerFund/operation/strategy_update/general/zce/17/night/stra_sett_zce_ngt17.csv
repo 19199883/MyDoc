@@ -1,11 +1,7 @@
 comm_no,strategy,contract,lot
-zzsr,fl34_sr_night,SR705,6
-zzma,fl34_ma_night,MA705,4
-zzcf,fl34_cf_night,CF705,6
-zzzc,fl34_zc_night,ZC705,3
-zzta,fl34_ta_night,TA705,10
-zzcf,fl36_cf_night,CF705,8
-zzsr,fl60_sr_night,SR705,3
-zzzc,fl60_zc_night,ZC705,3
-zzcf,fl60_cf_night,CF705,6
-zzcf,fw10_cf_night,CF705,8
+zzsr,fl34_zzsr_night,SR709,4
+zzcf,fl34_zzcf_night,CF709,6
+zzsr,fl36_zzsr_night,SR709,2
+zzcf,fl36_zzcf_night,CF709,6
+zzsr,fl60_zzsr_night,SR709,2
+zzcf,fl60_zzcf_night,CF709,2

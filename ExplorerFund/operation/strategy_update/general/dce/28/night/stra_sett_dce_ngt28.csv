@@ -1,4 +1,3 @@
 comm_no,strategy,contract,lot
-dlp,fl34_p_night,p1709,12
-dlp,fl36_p_night,p1709,6
-dlp,fl60_p_night,p1709,10
+dla,fl34_dla_night,a1709,2
+dlp,fl60_dlp_night,p1709,10
