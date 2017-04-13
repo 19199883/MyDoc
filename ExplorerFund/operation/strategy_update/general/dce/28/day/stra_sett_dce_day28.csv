@@ -2,10 +2,13 @@ comm_no,strategy,contract,lot
 dlm,fl34_dlm_day,m1709,20
 dlp,fl34_dlp_day,p1709,10
 dla,fl34_dla_day,a1709,2
-dljd,fl34_dljd_day,jd1705,1
+dljd,fl34_dljd_day,jd1709,1
 dlc,fl34_dlc_day,c1709,30
 dlm,fl36_dlm_day,m1709,10
 dlc,fl36_dlc_day,c1709,20
 dlm,fl60_dlm_day,m1709,30
 dlp,fl60_dlp_day,p1709,15
 dlc,fl60_dlc_day,c1709,30
+dlm,fl62_dlm_day,m1709,40
+dly,fl62_dly_day,y1709,3
+dlc,fl62_dlc_day,c1709,10

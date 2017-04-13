@@ -1,11 +1,11 @@
 comm_no,strategy,contract,lot
-zn,fl34_zn_night,zn1705,6
-al,fl34_al_night,al1705,4
+zn,fl34_zn_night,zn1706,6
+al,fl34_al_night,al1706,4
 pb,fl34_pb_night,pb1705,2
 hc,fl34_hc_night,hc1710,5
 pb,fl35_pb_night,pb1705,2
-zn,fl36_zn_night,zn1705,6
+zn,fl36_zn_night,zn1706,6
 ag,fl60_ag_night,ag1706,10
-zn,fl60_zn_night,zn1705,6
-al,fl60_al_night,al1705,2
+zn,fl60_zn_night,zn1706,6
+al,fl60_al_night,al1706,2
 pb,fl60_pb_night,pb1705,2
