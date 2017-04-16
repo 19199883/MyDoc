@@ -1,11 +1,11 @@
 comm_no,strategy,contract,lot
 ni,fl34_ni_day,ni1709,1
 cu,fl34_cu_day,cu1706,4
-ru,fl34_ru_day,ru1709,6
-zn,fl34_zn_day,zn1706,6
-al,fl34_al_day,al1706,4
+ru,fl34_ru_day,ru1709,3
+zn,fl34_zn_day,zn1706,3
+al,fl34_al_day,al1706,2
 rb,fl34_rb_day,rb1710,10
-pb,fl34_pb_day,pb1705,2
+pb,fl34_pb_day,pb1705,1
 hc,fl34_hc_day,hc1710,5
 pb,fl35_pb_day,pb1705,2
 ni,fl35_ni_day,ni1709,1
