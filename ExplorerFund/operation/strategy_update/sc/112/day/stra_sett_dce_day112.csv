@@ -1,3 +1,7 @@
 comm_no,strategy,contract,lot
-i,sc60_dli_day,i1709,20
-i,sc34_dli_day,i1709,20
+dli,sc34_dli_day,i1709,5
+dli,sc60_dli_day,i1709,5
+dli,sc62_dli_day,i1709,5
+dli,sc61_dli_day,i1709,5
+dlm,sc61_dlm_day,m1709,40
+dlc,sc63_dlc_day,c1709,40
