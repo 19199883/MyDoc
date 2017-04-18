@@ -1,6 +1,6 @@
 comm_no,strategy,contract,lot
 cu,fl34_cu_day,cu1706,1
-ru,fl34_ru_day,ru1709,2
+ru,fl34_ru_day,ru1709,1
 ag,fl34_ag_day,ag1706,5
 zn,fl34_zn_day,zn1706,4
 al,fl34_al_day,al1706,1
@@ -14,7 +14,7 @@ ru,fl36_ru_day,ru1709,1
 zn,fl36_zn_day,zn1706,1
 al,fl36_al_day,al1706,4
 rb,fl36_rb_day,rb1710,4
-ru,fl60_ru_day,ru1709,2
+ru,fl60_ru_day,ru1709,1
 au,fl60_ag_day,au1706,6
 ag,fl60_ag_day,ag1706,5
 zn,fl60_zn_day,zn1706,3
