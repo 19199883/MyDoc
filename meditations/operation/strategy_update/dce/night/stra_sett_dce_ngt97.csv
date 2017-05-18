@@ -1,6 +1,7 @@
-item,strategy,contract,lot
-p,tst0_dlp_night,p1709,1
+id,strategy,contract,lot
+a,tst1_dla_night,a1709,2
+a,tst2_dla_night,a1709,1
 p,tst1_dlp_night,p1709,1
-p,tst2_dlp_night,p1709,1
-a,tst1_dla_night,a1705,1
-a,tst2_dla_night,a1705,1
+a,tst1_dla_night_ev,a1709,2
+a,tst2_dla_night_ev,a1709,1
+p,tst1_dlp_night_ev,p1709,1

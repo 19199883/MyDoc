@@ -1,8 +1,5 @@
 item,strategy,contract,lot
-cf,tst1_zzcf_night,CF705,1
-cf,tst2_zzcf_night,CF705,1
-sr,tst1_zzsr_night,SR705,2
-sr,tst2_zzsr_night,SR705,1
-ta,tst4_zzta_night,TA705,1
-zc,tst1_zzzc_night,ZC705,1
-zc,tst5_zzzc_night,ZC705,1
+sr,tst1_zzsr_night,SR709,2
+sr,tst2_zzsr_night,SR709,2
+zc,tst1_zzzc_night,ZC709,2
+zc,tst2_zzzc_night,ZC709,2
