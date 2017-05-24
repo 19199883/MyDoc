@@ -1,11 +1,11 @@
 comm_no,strategy,contract,lot
 shni,st160b_ni_day,ni1709,3
-shru,st160b_ru_day,ru1709,2
+shru,st160b_ru_day,ru1709,3
 shhc,st160b_hc_day,hc1710,8
 shni,st162b_ni_day,ni1709,4
 shrb,st162b_rb_day,rb1710,15
 shhc,st162b_hc_day,hc1710,8
-shru,st163b_ru_day,ru1709,4
+shru,st163b_ru_day,ru1709,5
 shcu,st163b_cu_day,cu1707,1
 shhc,st163b_hc_day,hc1710,4
 shhc,st172b_hc_day,hc1710,4

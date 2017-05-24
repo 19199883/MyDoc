@@ -4,7 +4,7 @@ au,fl52_au_day,au1712,1
 cu,fl52_cu_day,cu1707,1
 hc,fl52_hc_day,hc1710,1
 ni,fl52_ni_day,ni1709,1
-pb,fl52_pb_day,pb1706,1
+pb,fl52_pb_day,pb1707,1
 rb,fl52_rb_day,rb1710,1
 ru,fl52_ru_day,ru1709,1
 zn,fl52_zn_day,zn1707,1
@@ -15,7 +15,7 @@ au,fl50_au_day,au1712,1
 cu,fl50_cu_day,cu1707,1
 hc,fl50_hc_day,hc1710,1
 ni,fl50_ni_day,ni1709,1
-pb,fl50_pb_day,pb1706,1
+pb,fl50_pb_day,pb1707,1
 rb,fl50_rb_day,rb1710,1
 ru,fl50_ru_day,ru1709,1
 zn,fl50_zn_day,zn1707,1
@@ -25,14 +25,14 @@ au,fl51_au_day,au1712,1
 cu,fl51_cu_day,cu1707,1
 hc,fl51_hc_day,hc1710,1
 ni,fl51_ni_day,ni1709,1
-pb,fl51_pb_day,pb1706,1
+pb,fl51_pb_day,pb1707,1
 rb,fl51_rb_day,rb1710,1
 ru,fl51_ru_day,ru1709,1
 zn,fl51_zn_day,zn1707,1
 zn,fl52a_zn_day,zn1707,1
 ru,fl52a_ru_day,ru1709,1
 rb,fl52a_rb_day,rb1710,1
-pb,fl52a_pb_day,pb1706,1
+pb,fl52a_pb_day,pb1707,1
 ni,fl52a_ni_day,ni1709,1
 hc,fl52a_hc_day,hc1710,1
 cu,fl52a_cu_day,cu1707,1
@@ -42,7 +42,7 @@ ag,fl52a_ag_day,ag1712,1
 zn,fl51a_zn_day,zn1707,1
 ru,fl51a_ru_day,ru1709,1
 rb,fl51a_rb_day,rb1710,1
-pb,fl51a_pb_day,pb1706,1
+pb,fl51a_pb_day,pb1707,1
 ni,fl51a_ni_day,ni1709,1
 hc,fl51a_hc_day,hc1710,1
 cu,fl51a_cu_day,cu1707,1
@@ -52,7 +52,7 @@ ag,fl51a_ag_day,ag1712,1
 zn,fl50a_zn_day,zn1707,1
 ru,fl50a_ru_day,ru1709,1
 rb,fl50a_rb_day,rb1710,1
-pb,fl50a_pb_day,pb1706,1
+pb,fl50a_pb_day,pb1707,1
 ni,fl50a_ni_day,ni1709,1
 hc,fl50a_hc_day,hc1710,1
 cu,fl50a_cu_day,cu1707,1
