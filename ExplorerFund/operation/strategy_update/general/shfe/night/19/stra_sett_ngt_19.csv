@@ -1,8 +1,9 @@
 comm_no,strategy,contract,lot
-shni,st134b_ni_night,ni1709,3
-shhc,st134b_hc_night,hc1710,4
-shni,st136b_ni_night,ni1709,3
-shbu,st136b_bu_night,bu1709,10
-shhc,st136b_hc_night,hc1710,8
+shni,st134b_ni_night,ni1709,4
+shhc,st134b_hc_night,hc1710,3
+shni,st136b_ni_night,ni1709,4
+shbu,st136b_bu_night,bu1709,5
+shhc,st136b_hc_night,hc1710,15
 shni,st160b_ni_night,ni1709,3
-shhc,st160b_hc_night,hc1710,2
+shbu,st160b_bu_night,bu1709,5
+shhc,st160b_hc_night,hc1710,3

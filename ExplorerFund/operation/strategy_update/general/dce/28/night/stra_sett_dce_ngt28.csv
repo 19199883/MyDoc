@@ -1,6 +1,5 @@
 comm_no,strategy,contract,lot
-dly,st136_dly_night,y1709,1
-dly,st160_dly_night,y1709,1
-dly,st162_dly_night,y1709,1
-dly,st163_dly_night,y1709,1
-dly,st172_dly_night,y1709,1
+dlm,st160_dlm_night,m1709,5
+dly,st160_dly_night,y1709,10
+dly,st162_dly_night,y1709,15
+dly,st163_dly_night,y1709,10
