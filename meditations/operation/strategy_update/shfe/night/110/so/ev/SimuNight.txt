@@ -1,0 +1,3 @@
+so_name|trade_start_time|trade_close_time|open_end_time|para1|para2|para3|fee_by_vol|fee_by_amt|fill_ratio
+xpv_rb|210000|225500|225000|1.00|7.00|5.20|0.000000000|0.000105000|0.0500
+xpv_zn|210000|235500|235000|1.00|9.50|5.00|0.000000000|0.000105000|0.0500
