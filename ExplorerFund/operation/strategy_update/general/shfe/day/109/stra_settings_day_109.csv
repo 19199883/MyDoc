@@ -1,7 +1,8 @@
 comm_no,strategy,contract,lot
-shru,st134b_ru_day,ru1709,1
-shzn,st134b_zn_day,zn1708,1
-shrb,st134b_rb_day,rb1710,1
-shpb,st134b_pb_day,pb1707,1
-shhc,st134b_hc_day,hc1710,1
+shag,st134b_ag_day,ag1712,1
+shag,st164b_ag_day,ag1712,1
+shag,st136b_ag_day,ag1712,1
+shag,st160b_ag_day,ag1712,1
+shag,st162b_ag_day,ag1712,1
+shag,st163b_ag_day,ag1712,1
 shag,st172b_ag_day,ag1712,1
