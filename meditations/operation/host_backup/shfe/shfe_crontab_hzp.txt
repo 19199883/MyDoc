@@ -1,0 +1,34 @@
+#########################################
+# day trading
+############################################
+
+# start trading service
+33 8 * * 1-5 sh    /home/u113169/day169/x-shfe/start.sh
+00 15 * * 1-5 python /home/u113169/day169/x-shfe/conf_to_csv.py 
+# stop trading service
+05 15 * * 1-5 sh    /home/u113169/day169/x-shfe/stop.sh
+# combine data
+30 15 * * 1-5 sh /home/u113169/day/backup/combine_log.sh
+
+00 16 * * 1-5 sh ~/domi_contr_check/download_dc.sh
+
+# clean old files
+06 15 * * 1-5 sh    /home/u113169/day169/rm_old_files.sh
+06 15 * * 1-5 sh    /home/u113169/day/rm_old_files.sh
+
+#################################################
+# night trading
+#
+################################################
+
+# start trading service
+31 20 * * 1-5 sh         /home/u113169/night169/x-shfe/start.sh
+30 2 * * 2-6 python /home/u113169/night169/x-shfe/conf_to_csv.py 
+# stop trading service
+33 2 * * 2-6 sh         /home/u113169/night169/x-shfe/stop.sh
+00 3 * * 2-6 sh /home/u113169/night/backup/combine_log.sh
+
+# clean old files
+20 3 * * 2-6 sh   /home/u113169/night/rm_old_files.sh
+20 3 * * 2-6 sh   /home/u113169/night169/rm_old_files.sh
+

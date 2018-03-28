@@ -1,1 +1,0 @@
-tar -cvjf dce_scripts.tar.bz2 `find . -name "*.sh" -o -name "*.config" -o -name "*.xml"`
