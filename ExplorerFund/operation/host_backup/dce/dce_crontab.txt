@@ -1,87 +1,93 @@
-# start market data service
-30 8 * * 1-5 sh /home/u910019/explorer/day28/dcelv2_mktsvc/start.sh
-#30 8 * * 1-5 sh /home/u910019/explorer/day112/dcelv2_mktsvc/start.sh
-#30 8 * * 1-5 sh /home/u910019/explorer/day137/dcelv2_mktsvc/start.sh
-#30 8 * * 1-5 sh /home/u910019/explorer/day100/dcelv2_mktsvc/start.sh
-#30 8 * * 1-5 sh /home/u910019/explorer/day031/dcelv2_mktsvc/start.sh
-30 8 * * 1-5     sh /home/u910019/medi/day/dcelv2_mktsvc/start.sh
+#############################################
+# download market data
+#
+################################################
+#--day
+30 08 * * 1-5 sh /home/u910019/md/download/day/dcelv2_mktsvc/start.sh
+10 15 * * 1-5 sh /home/u910019/md/download/day/dcelv2_mktsvc/stop.sh
+12 15 * * 1-5 sh /home/u910019/md/download/day/dcelv2_mktsvc/transfer_md.sh
+17 15 * * 1-5 sh /home/u910019/md/download/day/rm_old_files.sh
+
 
 # start trading service
-31 8 * * 1-5 sh /home/u910019/explorer/day28/dcelevel2_tradsev/start.sh
-#31 8 * * 1-5 sh /home/u910019/explorer/day112/dcelevel2_tradsev/start.sh
-#31 8 * * 1-5 sh /home/u910019/explorer/day137/dcelevel2_tradsev/start.sh
-#31 8 * * 1-5 sh /home/u910019/explorer/day100/dcelevel2_tradsev/start.sh
-#31 8 * * 1-5 sh /home/u910019/explorer/day031/dcelevel2_tradsev/start.sh
-31 8 * * 1-5     sh /home/u910019/medi/day/dcelevel2_tradsev/start.sh
-
-#05 15 * * 1-5 sh /home/u910019/explorer/day112/dcelevel2_tradsev/pos_calc.sh
-#05 15 * * 1-5 sh /home/u910019/explorer/day137/dcelevel2_tradsev/pos_calc.sh
-#05 15 * * 1-5 sh /home/u910019/explorer/day100/dcelevel2_tradsev/pos_calc.sh
-#05 15 * * 1-5 sh /home/u910019/explorer/day031/dcelevel2_tradsev/pos_calc.sh
-
-06 15 * * 1-5 python  /home/u910019/medi/day/dcelevel2_tradsev/conf_to_csv.py
-
-# stop market data service
-10 15 * * 1-5 sh /home/u910019/explorer/day28/dcelv2_mktsvc/stop.sh
-#10 15 * * 1-5 sh /home/u910019/explorer/day112/dcelv2_mktsvc/stop.sh
-#10 15 * * 1-5 sh /home/u910019/explorer/day137/dcelv2_mktsvc/stop.sh
-#10 15 * * 1-5 sh /home/u910019/explorer/day100/dcelv2_mktsvc/stop.sh
-#10 15 * * 1-5 sh /home/u910019/explorer/day031/dcelv2_mktsvc/stop.sh
-10 15 * * 1-5     sh /home/u910019/medi/day/dcelv2_mktsvc/stop.sh
+#------medi
+31 8 * * 1-5     sh /home/u910019/medi/day210/x-dce/start.sh
+06 15 * * 1-5 python  /home/u910019/medi/day210/x-dce/conf_to_csv.py
+#-------------explorer
+31 8 * * 1-5 sh /home/u910019/explorer/day28/x-dce/start.sh
+31 8 * * 1-5 sh /home/u910019/explorer/day100/x-dce/start.sh
+#31 8 * * 1-5 sh /home/u910019/explorer/day111/x-dce/start.sh
+#-------------winfund
+31 8 * * 1-5 sh /home/u910019/winfund/day097/x-dce/start.sh
 
 # stop trading service
-11 15 * * 1-5 sh /home/u910019/explorer/day28/dcelevel2_tradsev/stop.sh
-#11 15 * * 1-5 sh /home/u910019/explorer/day112/dcelevel2_tradsev/stop.sh
-#11 15 * * 1-5 sh /home/u910019/explorer/day137/dcelevel2_tradsev/stop.sh
-#11 15 * * 1-5 sh /home/u910019/explorer/day100/dcelevel2_tradsev/stop.sh
-#11 15 * * 1-5 sh /home/u910019/explorer/day031/dcelevel2_tradsev/stop.sh
-11 15 * * 1-5     sh /home/u910019/medi/day/dcelevel2_tradsev/stop.sh
-
-# transfer market data
-12 15 * * 1-5 sh /home/u910019/explorer/day28/dcelv2_mktsvc/transfer_md.sh
-#12 15 * * 1-5 sh /home/u910019/explorer/day112/dcelv2_mktsvc/transfer_md.sh
-#12 15 * * 1-5 sh /home/u910019/explorer/day137/dcelv2_mktsvc/transfer_md.sh
-#12 15 * * 1-5 sh /home/u910019/explorer/day100/dcelv2_mktsvc/transfer_md.sh
-#12 15 * * 1-5 sh /home/u910019/explorer/day031/dcelv2_mktsvc/transfer_md.sh
-15 15 * * 1-5     sh /home/u910019/medi/day/dcelv2_mktsvc/transfer_md.sh
+#-------------medi
+09 15 * * 1-5     sh /home/u910019/medi/day210/x-dce/stop.sh
+#--------------explorer
+09 15 * * 1-5 sh /home/u910019/explorer/day28/x-dce/stop.sh
+09 15 * * 1-5 sh /home/u910019/explorer/day100/x-dce/stop.sh
+09 15 * * 1-5 sh /home/u910019/explorer/day111/x-dce/stop.sh
+#----------------------winfund
+09 15 * * 1-5 sh /home/u910019/winfund/day097/x-dce/stop.sh
 
 # clean old files
-17 15 * * 1-5 sh /home/u910019/explorer/day28/rm_old_files.sh
-#17 15 * * 1-5 sh /home/u910019/explorer/day112/rm_old_files.sh
-#17 15 * * 1-5 sh /home/u910019/explorer/day137/rm_old_files.sh
-#17 15 * * 1-5 sh /home/u910019/explorer/day100/rm_old_files.sh
-#17 15 * * 1-5 sh /home/u910019/explorer/day031/rm_old_files.sh
+#----------medi
+17 15 * * 1-5     sh /home/u910019/medi/day210/rm_old_files.sh
 17 15 * * 1-5     sh /home/u910019/medi/day/rm_old_files.sh
+#----------------explorer
+17 15 * * 1-5 sh /home/u910019/explorer/day28/rm_old_files.sh
+17 15 * * 1-5 sh /home/u910019/explorer/day100/rm_old_files.sh
+17 15 * * 1-5 sh /home/u910019/explorer/day111/rm_old_files.sh
+17 15 * * 1-5 sh /home/u910019/explorer/x-trader/rm_old_files.sh
+#------------------winfund
+17 15 * * 1-5 sh /home/u910019/winfund/day097/rm_old_files.sh
 
 18 15 * * 1-5 sh ~/domi_contr_check/dce_domi_contr_finder.sh -g
 
-#down data from option server
-20 15 * * 1-5  sh /home/u910019/explorer/sc/sett/137/down_log.sh
-20 15 * * 1-5  sh /home/u910019/explorer/sc/sett/100/down_log.sh
+#----------------medi combine
+20 15 * * 1-5 sh /home/u910019/medi/day/backup/combine_log.sh
 
-# start market data service
-35 20 * * 1-5 sh /home/u910019/explorer/night28/dcelv2_mktsvc/start.sh
-35 20 * * 1-5     sh /home/u910019/medi/night/dcelv2_mktsvc/start.sh
+# night trading
+20 19 * * 1-7     /home/u910019/medi/day210/x-dce/tools/configurator.py
+20 19 * * 1-7     /home/u910019/medi/night210/x-dce/tools/configurator.py
 
-# start trading service
-36 20 * * 1-5 sh /home/u910019/explorer/night28/dcelevel2_tradsev/start.sh
-36 20 * * 1-5     sh /home/u910019/medi/night/dcelevel2_tradsev/start.sh
+#---------------start
+#---------------explorder start
+36 20 * * 1-5     sh /home/u910019/explorer/night28/x-dce/start.sh
+36 20 * * 1-5     sh /home/u910019/explorer/night100/x-dce/start.sh
+#36 20 * * 1-5     sh /home/u910019/explorer/night111/x-dce/start.sh
 
-# stop market data service
-30 2 * * 2-6 sh /home/u910019/explorer/night28/dcelv2_mktsvc/stop.sh
-30 2 * * 2-6     sh /home/u910019/medi/night/dcelv2_mktsvc/stop.sh
+#----------------winfund
+36 20 * * 1-5     sh /home/u910019/winfund/night097/x-dce/start.sh
 
-30 2 * * 2-6 python /home/u910019/medi/night/dcelevel2_tradsev/conf_to_csv.py
+#-------------medi start
+36 20 * * 1-5     sh /home/u910019/medi/night210/x-dce/start.sh
 
-# stop trading service
-31 2 * * 2-6 sh /home/u910019/explorer/night28/dcelevel2_tradsev/stop.sh
-31 2 * * 2-6     sh /home/u910019/medi/night/dcelevel2_tradsev/stop.sh
+30 2 * * 2-6 python /home/u910019/medi/night210/x-dce/conf_to_csv.py
 
-# transfer market data
-00 3 * * 2-6 sh /home/u910019/explorer/night28/dcelv2_mktsvc/transfer_md.sh
-04 3 * * 2-6 sh     /home/u910019/medi/night/dcelv2_mktsvc/transfer_md.sh
+#---------------stop
+#---------------explorder stop
+31 2 * * 2-6     sh /home/u910019/explorer/night28/x-dce/stop.sh
+31 2 * * 2-6     sh /home/u910019/explorer/night100/x-dce/stop.sh
+31 2 * * 2-6     sh /home/u910019/explorer/night111/x-dce/stop.sh
+
+#----------------------winfund
+31 2 * * 2-6     sh /home/u910019/winfund/night097/x-dce/stop.sh
+
+#-----------medi stop
+31 2 * * 2-6     sh /home/u910019/medi/night210/x-dce/stop.sh
+#-----------medi log
+00 3 * * 2-6 sh /home/u910019/medi/night/backup/combine_log.sh
 
 # clean old files
-10 3 * * 2-6 sh /home/u910019/explorer/night28/rm_old_files.sh
-10 3 * * 2-6     sh /home/u910019/medi/night/rm_old_files.sh
+#------------explorer
+10 3 * * 2-6     sh /home/u910019/explorer/night28/rm_old_files.sh
+10 3 * * 2-6     sh /home/u910019/explorer/night100/rm_old_files.sh
+10 3 * * 2-6     sh /home/u910019/explorer/night111/rm_old_files.sh
 
+#---------------------winfund
+10 3 * * 2-6     sh /home/u910019/winfund/night097/rm_old_files.sh
+
+#------------medi
+10 3 * * 2-6     sh /home/u910019/medi/night210/rm_old_files.sh
+10 3 * * 2-6     sh /home/u910019/medi/night/rm_old_files.sh
