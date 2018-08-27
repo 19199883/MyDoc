@@ -1,8 +1,3 @@
 comm_no,strategy,contract,lot
-shcu,st301a_cu_day,cu1809,1
-shrb,st301a_rb_day,rb1810,85
-shcu,st303a_cu_day,cu1809,1
-shzn,st303a_zn_day,zn1809,1
-shrb,st303a_rb_day,rb1810,85
-shrb,st304a_rb_day,rb1810,85
-shcu,st307a_cu_day,cu1809,1
+shrb,st323a_rb_day,rb1901,10
+shrb,st329a_rb_day,rb1901,5
