@@ -1,1 +1,0 @@
-tar -cvjf shfe_scripts_hzp.tar.bz2 `find . -name "*.sh" -o -name "*.config" -o -name "*.xml"`
